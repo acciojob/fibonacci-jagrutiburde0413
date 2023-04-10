@@ -1,11 +1,11 @@
 function fibonacci(num) {
 
 if(n===1){
-	return 0
+	console.log("0")
 }if(n===2){
-	return 1
+	console.log("1")
 }
-return fibonacci(num-1)+fibonacci(n-2)
+console.log(fibonacci(num-1)+fibonacci(n-2))
 }
 
 module.exports = fibonacci;
