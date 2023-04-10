@@ -2,7 +2,7 @@
  function fibonacci(num) {
   if (num === 1) return 0;
   else if (num === 2) return 1;
-  num -= 2;
+  num =num-2;
   var num1 = 0;
   var num2 = 1;
   var sum;
