@@ -7,7 +7,7 @@ let a=0;
 		a=b;
 		b=c;
 	}
-	return b
+	return num?a:b;
 }
 
 module.exports = fibonacci;
