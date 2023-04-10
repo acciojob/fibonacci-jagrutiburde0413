@@ -1,13 +1,13 @@
 function fibonacci(num) {
 let a=0;
 	let b=1;
-	let c=0;
-	for(let i=2;i<=num;i++){
+	let c;
+	for(let i=0;i<num;i++){
 		c=a+b;
 		a=b;
 		b=c;
 	}
-	return num?b:a;
+	return b
 }
 
 module.exports = fibonacci;
