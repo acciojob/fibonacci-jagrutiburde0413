@@ -1,11 +1,14 @@
 function fibonacci(num) {
-
-if(n===1){
-	console.log("0")
-}if(n===2){
-	console.log("1")
-}
-console.log(fibonacci(num-1)+fibonacci(n-2))
+var a = 0;
+  var b = 1;
+  var sum;
+  var i = 0;
+  for (i = 0; i < num; i++) {
+    sum = a + b;
+    a = b;
+   b= sum;
+  }
+  return b;
 }
 
 module.exports = fibonacci;
